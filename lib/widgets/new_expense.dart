@@ -156,6 +156,7 @@ class _NewExpenseState extends State<NewExpense> {
                 },
                 child: Text('Cancel'),
               ),
+              SizedBox(width: 16),
               ElevatedButton(
                 onPressed: _submitExpenseData,
                 child: Text('Submit'),
